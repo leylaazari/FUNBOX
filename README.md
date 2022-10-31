@@ -4,19 +4,21 @@
 
     1. Description
 
-    2. Directory structure/project
+    2. Demo
 
-    3. Packages
+    3. Directory structure/project
 
-    4. Style
+    4. Packages
 
-    5. State management
+    5. Style
 
-    6. Test
+    6. State management
 
-    7. APIs
+    7. Test
 
-    8. Preview of the project
+    8. APIs
+
+    9. Preview of the project
 
         * Desktop view
 
@@ -36,10 +38,16 @@ movies.
 
 Features:
 ● A search field and like a table for showing the result.
+
 ● It should also have functionality for setting movies as your favourites, maybe with a star
 symbol in the table.
+
 ● A list where you can add movies you want to watch, like the “watch later” functionality on
 YouTube.
+
+# Demo
+
+https://leylaazari.github.io/FUNBOX
 
 # Directory structure/project
 
@@ -68,38 +76,53 @@ These packages are installed in this project:
 
 - react-hook-form
 
+- react-lazy-load-image-component
+
 # Style
 
 2 type of styles were used in the project:
 
-- **botstrap**
+- **bootstrap**
 - **sass**
 
 # State management
 
-I don't use state management in this project. I save data into LocalStorage.
+I don't use state management in this project. I saved the related data of "Watch List" and "Favourite List" in LocalStorage.
+but actually, this information should be send to the server and stored in database, but here I used a temp and quick method!
 
 # Test
 
 The Library used for testing is **React Testing Library**.
 
-![Optional Text](../main/src/assets/images/read-me/Test.jpg)
+![Optional Text](../main/src/assets/images/read-me/test.JPG)
 
 # APIs
 
 Axios is a promise-based HTTP Client for node.js and the browser. this project is used Axios for access to Apis.
 
+![Optional Text](../main/src/assets/images/read-me/tmdb.svg)
+
+## Let's talk about TMDB
+
+The Movie Database (TMDB) is a community built movie and TV database. Every piece of data has been added by our amazing community dating back to 2008. TMDb's strong international focus and breadth of data is largely unmatched and something we're incredibly proud of. Put simply, we live and breathe community and that's precisely what makes us different.
+
 APIs url:
 
 https://api.themoviedb.org/3
 
-|     method      |          params           |
-| :-------------: | :-----------------------: |
-| discover/movie/ | sort_by:"popularity.desc" |
+|     method      |                                            params                                            |
+| :-------------: | :------------------------------------------------------------------------------------------: |
+| discover/movie/ |                                  sort_by:"popularity.desc"                                   |
+| :-------------: | :------------------------------------------------------------------------------------------: |
+| discover/movie/ |      certification_country: "US", "certification.lte": "G", sort_by:"popularity.desc",       |
+| :-------------: | :------------------------------------------------------------------------------------------: |
+| discover/movie/ |                  primary_release_year: "2010", sort_by:"vote_average.desc",                  |
+| :-------------: | :------------------------------------------------------------------------------------------: |
+| /search/movie/  |                                            query                                             |
 
 # Preview of the project
 
-This project have 2 pages:
+This project have 4 pages:
 
     - Home
 
@@ -111,24 +134,24 @@ This project have 2 pages:
 
 ## Desktop view
 
-![Optional Text](../main/src/assets/images/read-me/d-main.png);
+![Optional Text](../main/src/assets/images/read-me/d-main.png)
 
 ## Tablet view
 
-![Optional Text](../main/src/assets/images/read-me/d-tablet.png);
+![Optional Text](../main/src/assets/images/read-me/d-tablet.png)
 
 ## Mobile view
 
-![Optional Text](../main/src/assets/images/read-me/d-mobile.png);
+![Optional Text](../main/src/assets/images/read-me/d-mobile.png)
 
 ### Search
 
-![Optional Text](../main/src/assets/images/read-me/search.jpg);
+![Optional Text](../main/src/assets/images/read-me/search.JPG)
 
 ## Watch List
 
-![Optional Text](../main/src/assets/images/read-me/watch.jpg)
+![Optional Text](../main/src/assets/images/read-me/watch.JPG)
 
 ## Favourite List
 
-![Optional Text](../main/src/assets/images/read-me/Favourite.jpg)
+![Optional Text](../main/src/assets/images/read-me/favourite.JPG)

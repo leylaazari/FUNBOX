@@ -10,7 +10,7 @@ const DefaultLayout = React.lazy(() => import("./layout/DefaultLayout"));
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={window.location.pathname || ""}>
         <Suspense fallback={<Spinner />}>
           <Routes>
             <Route path="*" element={<DefaultLayout />} />
