@@ -1,0 +1,54 @@
+.best_top-list {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  white-space: nowrap;
+  padding: 15px 8px 25px 0;
+}
+
+.item-movie {
+  img {
+    max-width: 100%;
+    max-height: 120px;
+    min-width: 100%;
+    min-height: 120px;
+    width: 80px;
+    height: 120px;
+    cursor: pointer;
+  }
+
+  .pointer {
+    cursor: pointer !important;
+  }
+
+  img {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  p {
+    font-size: 10px;
+    font-weight: 700;
+    z-index: 2;
+    text-align: left;
+  }
+
+  span {
+    font-size: 12px;
+    font-weight: 700;
+    z-index: 2;
+    text-align: left;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .best_top-list {
+    overflow-x: scroll !important;
+    white-space: nowrap;
+    padding: 2px 2px 2px 10px;
+  }
+}
+
+.popular-header {
+  font-size: 18px;
+  font-weight: 700;
+}
