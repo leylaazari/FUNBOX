@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FUNBOX/static/css/main.2dfa7bba.css",
-    "main.js": "/FUNBOX/static/js/main.0f2bed55.js",
+    "main.js": "/FUNBOX/static/js/main.20dc4b30.js",
     "static/css/284.dc840213.chunk.css": "/FUNBOX/static/css/284.dc840213.chunk.css",
     "static/js/284.ebee28fc.chunk.js": "/FUNBOX/static/js/284.ebee28fc.chunk.js",
     "static/js/787.4c553678.chunk.js": "/FUNBOX/static/js/787.4c553678.chunk.js",
@@ -17,15 +17,15 @@
     "static/js/463.96671ff4.chunk.js": "/FUNBOX/static/js/463.96671ff4.chunk.js",
     "static/js/521.3ee290ed.chunk.js": "/FUNBOX/static/js/521.3ee290ed.chunk.js",
     "static/js/253.ca30d62b.chunk.js": "/FUNBOX/static/js/253.ca30d62b.chunk.js",
+    "static/media/Loading.gif": "/FUNBOX/static/media/Loading.2a52595016d8634efb7f.gif",
     "static/media/bg.webp": "/FUNBOX/static/media/bg.9eb44fe607220edd4bd1.webp",
-    "static/media/Loading.gif": "/FUNBOX/static/media/Loading.1eb1c8137e00e61a768d.gif",
     "static/media/watchEverywhere.webp": "/FUNBOX/static/media/watchEverywhere.0dada5f587cca11d24b4.webp",
     "static/media/offline.webp": "/FUNBOX/static/media/offline.97bc1e2e417d92fa13eb.webp",
     "static/media/kids.webp": "/FUNBOX/static/media/kids.82808ce817fbc294f32a.webp",
     "static/media/logo.png": "/FUNBOX/static/media/logo.bc87ea83b185b397a5f8.png",
     "index.html": "/FUNBOX/index.html",
     "main.2dfa7bba.css.map": "/FUNBOX/static/css/main.2dfa7bba.css.map",
-    "main.0f2bed55.js.map": "/FUNBOX/static/js/main.0f2bed55.js.map",
+    "main.20dc4b30.js.map": "/FUNBOX/static/js/main.20dc4b30.js.map",
     "284.dc840213.chunk.css.map": "/FUNBOX/static/css/284.dc840213.chunk.css.map",
     "284.ebee28fc.chunk.js.map": "/FUNBOX/static/js/284.ebee28fc.chunk.js.map",
     "787.4c553678.chunk.js.map": "/FUNBOX/static/js/787.4c553678.chunk.js.map",
@@ -44,6 +44,6 @@
   },
   "entrypoints": [
     "static/css/main.2dfa7bba.css",
-    "static/js/main.0f2bed55.js"
+    "static/js/main.20dc4b30.js"
   ]
 }
