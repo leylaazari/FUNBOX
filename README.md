@@ -82,7 +82,7 @@ These packages are installed in this project:
 
 2 type of styles were used in the project:
 
-- **botstrap**
+- **bootstrap**
 - **sass**
 
 # State management
