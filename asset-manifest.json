@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FUNBOX/static/css/main.2dfa7bba.css",
-    "main.js": "/FUNBOX/static/js/main.20dc4b30.js",
+    "main.js": "/FUNBOX/static/js/main.75faa084.js",
     "static/css/284.dc840213.chunk.css": "/FUNBOX/static/css/284.dc840213.chunk.css",
     "static/js/284.ebee28fc.chunk.js": "/FUNBOX/static/js/284.ebee28fc.chunk.js",
     "static/js/787.4c553678.chunk.js": "/FUNBOX/static/js/787.4c553678.chunk.js",
     "static/css/653.5b0fb6f7.chunk.css": "/FUNBOX/static/css/653.5b0fb6f7.chunk.css",
-    "static/js/653.d7422da5.chunk.js": "/FUNBOX/static/js/653.d7422da5.chunk.js",
+    "static/js/653.dc58c200.chunk.js": "/FUNBOX/static/js/653.dc58c200.chunk.js",
     "static/css/978.7cb13f83.chunk.css": "/FUNBOX/static/css/978.7cb13f83.chunk.css",
-    "static/js/978.13b89e69.chunk.js": "/FUNBOX/static/js/978.13b89e69.chunk.js",
+    "static/js/978.77a1d677.chunk.js": "/FUNBOX/static/js/978.77a1d677.chunk.js",
     "static/css/768.91e76127.chunk.css": "/FUNBOX/static/css/768.91e76127.chunk.css",
     "static/js/768.b4a0bd73.chunk.js": "/FUNBOX/static/js/768.b4a0bd73.chunk.js",
     "static/css/604.91e76127.chunk.css": "/FUNBOX/static/css/604.91e76127.chunk.css",
@@ -25,14 +25,14 @@
     "static/media/logo.png": "/FUNBOX/static/media/logo.bc87ea83b185b397a5f8.png",
     "index.html": "/FUNBOX/index.html",
     "main.2dfa7bba.css.map": "/FUNBOX/static/css/main.2dfa7bba.css.map",
-    "main.20dc4b30.js.map": "/FUNBOX/static/js/main.20dc4b30.js.map",
+    "main.75faa084.js.map": "/FUNBOX/static/js/main.75faa084.js.map",
     "284.dc840213.chunk.css.map": "/FUNBOX/static/css/284.dc840213.chunk.css.map",
     "284.ebee28fc.chunk.js.map": "/FUNBOX/static/js/284.ebee28fc.chunk.js.map",
     "787.4c553678.chunk.js.map": "/FUNBOX/static/js/787.4c553678.chunk.js.map",
     "653.5b0fb6f7.chunk.css.map": "/FUNBOX/static/css/653.5b0fb6f7.chunk.css.map",
-    "653.d7422da5.chunk.js.map": "/FUNBOX/static/js/653.d7422da5.chunk.js.map",
+    "653.dc58c200.chunk.js.map": "/FUNBOX/static/js/653.dc58c200.chunk.js.map",
     "978.7cb13f83.chunk.css.map": "/FUNBOX/static/css/978.7cb13f83.chunk.css.map",
-    "978.13b89e69.chunk.js.map": "/FUNBOX/static/js/978.13b89e69.chunk.js.map",
+    "978.77a1d677.chunk.js.map": "/FUNBOX/static/js/978.77a1d677.chunk.js.map",
     "768.91e76127.chunk.css.map": "/FUNBOX/static/css/768.91e76127.chunk.css.map",
     "768.b4a0bd73.chunk.js.map": "/FUNBOX/static/js/768.b4a0bd73.chunk.js.map",
     "604.91e76127.chunk.css.map": "/FUNBOX/static/css/604.91e76127.chunk.css.map",
@@ -44,6 +44,6 @@
   },
   "entrypoints": [
     "static/css/main.2dfa7bba.css",
-    "static/js/main.20dc4b30.js"
+    "static/js/main.75faa084.js"
   ]
 }
