@@ -26,12 +26,12 @@ export default async function BaseRequest(
   const API = SERVER_ADDRESS;
   try {
     const response = await axios({
-      url: `${API}${path}`,
+      url: `${API}${path}/`,
       method: method === "post" && data ? "POST" : method,     
       params: params,
       cancelToken: source.token,
       data,
-      ...otherOptions,
+      ...otherOptions, 
     });
 
     if (response.status >= 200 && response.status < 300) {

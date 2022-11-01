@@ -10,8 +10,10 @@ import SetFavouriteAndWatchStatus from "src/common/functions/SetFavouriteAndWatc
 
 const SearchContainer = () => {
   const [filmsList, setFilmsList] = useState<iItem[]>([]);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const handleSubmitForm = async (data: SearchType) => {
+    setIsLoading(true);
     let list = await ThemoviedbAPIService.getSearchByName(data.searchText);
 
     if (list) {
@@ -20,14 +22,18 @@ const SearchContainer = () => {
     } else {
       setFilmsList([]);
     }
+    setIsLoading(false);
   };
 
   return (
     <>
       <SearchBox handleSubmitForm={handleSubmitForm} />
-      <Suspense fallback={<Spinner />}>
-        {filmsList && <List items={filmsList} type={ListType.Search} />}
-      </Suspense>
+      {isLoading && <Spinner />}
+      {filmsList && !isLoading && (
+        <Suspense fallback={<Spinner />}>
+          <List items={filmsList} type={ListType.Search} />
+        </Suspense>
+      )}
     </>
   );
 };

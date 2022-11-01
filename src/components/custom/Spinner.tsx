@@ -1,9 +1,11 @@
-import Loading from "src/assets/images/Loading.gif";
-
 const Spinner = () => {
   return (
-    <div className="c-loader-container">
-      <img className="c-imgLoading" src={Loading} loading="lazy" />
+    <div className="d-flex justify-content-center spinner-container">
+      <div
+        className="spinner-border text-secondary"
+        style={{ width: "7rem", height: "7rem" }}
+        role="status"
+      ></div>
     </div>
   );
 };
