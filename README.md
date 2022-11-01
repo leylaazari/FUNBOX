@@ -37,10 +37,10 @@ bad movies. So what we’re gonna build today is an application for searching fo
 movies.
 
 Features:
+
 ● A search field and like a table for showing the result.
 
-● It should also have functionality for setting movies as your favourites, maybe with a star
-symbol in the table.
+● It should also have functionality for setting movies as your favourites.
 
 ● A list where you can add movies you want to watch, like the “watch later” functionality on
 YouTube.
@@ -78,12 +78,18 @@ These packages are installed in this project:
 
 - react-lazy-load-image-component
 
+- bootstrap
+
+- react-bootstrap-icons
+
+- react-toastify
+
 # Style
 
 2 type of styles were used in the project:
 
-- **bootstrap**
-- **sass**
+- **Bootstrap**
+- **SASS**
 
 # State management
 
