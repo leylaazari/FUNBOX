@@ -6,6 +6,8 @@
 }
 
 .item-movie {
+  overflow: hidden;
+
   img {
     max-width: 100%;
     max-height: 120px;
@@ -45,6 +47,23 @@
     overflow-x: scroll !important;
     white-space: nowrap;
     padding: 2px 2px 2px 10px;
+  }
+
+  .item-movie {
+    margin-right: 0.5rem;
+    font-size: 8px;
+    padding: 0.2rem;
+    width: 10rem;
+    overflow: hidden;
+
+    span,
+    p {
+      overflow: hidden;
+    }
+
+    img {
+      width: 100%;
+    }
   }
 }
 
