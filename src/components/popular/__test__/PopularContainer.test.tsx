@@ -6,7 +6,7 @@ import { setupServer } from "msw/node";
 import { ItemListWithResultMock } from "src/common/mock-data/ListItemMock";
 
 const server = setupServer(
-  rest.get("https://api.themoviedb.org/3/discover/movie", (req, res, ctx) => {
+  rest.get("https://api.themoviedb.org/3/discover/movie//", (req, res, ctx) => {
     return res(ctx.status(200), ctx.json(ItemListWithResultMock));
   })
 );
