@@ -2,7 +2,6 @@
   "name": "fe-hiring",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://leylaazari.github.io/FUNBOX/",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
@@ -39,7 +38,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build-localhost": "PUBLIC_URL=/ react-scripts build",
     "test": "react-scripts test --watchAll",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
