@@ -108,6 +108,12 @@ Axios is a promise-based HTTP Client for node.js and the browser. this project i
 
 ![Optional Text](../main/src/assets/images/read-me/tmdb.svg)
 
+
+## Important Point
+```diff
+- Access to these APIs is blocked in Iran and a VPN must be used.
+```
+
 ## Let's talk about TMDB
 
 The Movie Database (TMDB) is a community built movie and TV database. Every piece of data has been added by our amazing community dating back to 2008. TMDb's strong international focus and breadth of data is largely unmatched and something we're incredibly proud of. Put simply, we live and breathe community and that's precisely what makes us different.
