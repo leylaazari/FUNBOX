@@ -101,6 +101,10 @@ These packages are installed in this project:
 
 - react-toastify
 
+- react-virtualized-auto-sizer
+
+- react-window
+
 # Style
 
 2 type of styles were used in the project:
