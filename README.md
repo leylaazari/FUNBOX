@@ -5,20 +5,22 @@
     1. Description
 
     2. Demo
+    
+    3. Run
 
-    3. Directory structure/project
+    4. Directory structure/project
 
-    4. Packages
+    5. Packages
 
-    5. Style
+    6. Style
 
-    6. State management
+    7. State management
 
-    7. Test
+    8. Test
 
-    8. APIs
+    9. APIs
 
-    9. Preview of the project
+    10. Preview of the project
 
         * Desktop view
 
@@ -48,6 +50,21 @@ YouTube.
 # Demo
 
 https://leylaazari.github.io/FUNBOX
+
+
+# Run
+
+In the project directory, you can run:
+
+#### npm start
+
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
+
+#### npm test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
+
 
 # Directory structure/project
 
@@ -84,6 +101,10 @@ These packages are installed in this project:
 
 - react-toastify
 
+- react-virtualized-auto-sizer
+
+- react-window
+
 # Style
 
 2 type of styles were used in the project:
@@ -107,6 +128,12 @@ The Library used for testing is **React Testing Library**.
 Axios is a promise-based HTTP Client for node.js and the browser. this project is used Axios for access to Apis.
 
 ![Optional Text](../main/src/assets/images/read-me/tmdb.svg)
+
+
+## Important Point
+```diff
+- Access to these APIs is blocked in Iran and a VPN must be used.
+```
 
 ## Let's talk about TMDB
 
