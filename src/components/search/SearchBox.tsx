@@ -1,9 +1,9 @@
 import { useForm } from "react-hook-form";
-import { iSearchProps } from "src/common/interfaces";
+import { ISearchProps } from "src/common/interfaces";
 import { SearchType } from "src/common/types";
 import "./style/style.scss";
 
-const SearchBox = ({ handleSubmitForm }: iSearchProps) => {
+const SearchBox = ({ handleSubmitForm }: ISearchProps) => {
   const {
     register,
     handleSubmit,

@@ -1,6 +1,7 @@
+import { CSSProperties } from "react";
 import { ListType } from "../enums/ListType";
 
-export interface iItem{
+export interface IItem{
   adult: boolean,
   backdrop_path: string,
   id: number,
@@ -18,16 +19,22 @@ export interface iItem{
   isWatchLater:boolean
 }
 
-export interface iItemListProps{
-  items: iItem[];
+export interface IItemListProps{
+  items: IItem[];
   type: ListType;
 }
 
-export interface iItemProps{
-  item: iItem; 
+export interface IItemProps{
+  items: IItem[];
   type: ListType;
-  toggleFavourite: (action: boolean, item: iItem) => void,
-  toggleWatchList: (action: boolean, item: iItem) => void
+  toggleFavourite: (action: boolean, item: IItem) => void;
+  toggleWatchList: (action: boolean, item: IItem) => void;
+}
+
+export interface IRowItemProps {
+  data: IItemProps;
+  index: number;
+  style?: CSSProperties;
 }
 
 

@@ -1,15 +1,15 @@
-import { iItem } from "./iItem";
+import { IItem } from "./IListItems";
 import { PopularHeaderType } from "src/common/enums/PopularHeaderType";
 
-export interface iPopularContainerprops {
+export interface IPopularContainerprops {
     type: PopularHeaderType
 }
 
-export interface iStringProps {
+export interface IStringProps {
     title: string
 }
 
-export interface iItemPopularProps{
-    item: iItem;
+export interface IItemPopularProps{
+    item: IItem;
   }
   

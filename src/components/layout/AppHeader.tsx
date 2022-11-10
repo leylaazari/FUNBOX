@@ -12,18 +12,18 @@ const AppHeader = () => {
             <img className="logo" src={Logo} loading="lazy" />
           </div>
           <div className="header-menu">
-            <Link to="/Home">
+            <Link to="Home">
               <div>Home</div>
             </Link>
-            <Link to="/Favourite">
+            <Link to="Favourite">
               <div>Favourite</div>
             </Link>
-            <Link to="/WatchList">
+            <Link to="WatchList">
               <div>WatchList</div>
             </Link>
           </div>
           <div className="header-login">
-            <Link to="/search" title="search">
+            <Link to="Search" title="search">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"

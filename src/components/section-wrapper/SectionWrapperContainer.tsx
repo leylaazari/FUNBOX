@@ -2,7 +2,7 @@ import SectionWrapper from "./SectionWrapper";
 import kids from "src/assets/images/kids.webp";
 import watchEverywhere from "src/assets/images/watchEverywhere.webp";
 import offline from "src/assets/images/offline.webp";
-import { iStringProps } from "src/common/interfaces";
+import { IStringProps } from "src/common/interfaces";
 
 const data = [
   {
@@ -26,7 +26,7 @@ const data = [
   },
 ];
 
-const SectionWrapperContainer = ({ title }: iStringProps) => {
+const SectionWrapperContainer = ({ title }: IStringProps) => {
   let result = data.find((t) => t.key === title);
 
   return result ? (

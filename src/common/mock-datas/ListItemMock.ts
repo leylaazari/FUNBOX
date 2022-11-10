@@ -1,6 +1,6 @@
-import { iItem } from "../interfaces"
+import { IItem, IRowItemProps } from "../interfaces";
 
- export const ListItemMock:iItem  = {
+ export const ListItemMock:IItem  = {
     adult: false,
     backdrop_path: "/wevFeIpfABIcswMKjotI8p59hT7.jpg",
     id: 687280,
@@ -19,7 +19,7 @@ import { iItem } from "../interfaces"
   } 
 
 
-  export const ItemListMock: iItem[] = [
+  export const ItemListMock: IItem[] = [
     {
         adult: false,
         backdrop_path: "/snDGwQ3fbfNiGwUfT7dVPQ4MTSV.jpg",
@@ -197,4 +197,3 @@ import { iItem } from "../interfaces"
     }
 ]
     };
- 

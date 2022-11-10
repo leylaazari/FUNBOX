@@ -1,6 +1,6 @@
 import { SearchType } from "../types/SearchType";
 
-export interface iSearchProps {
+export interface ISearchProps {
     handleSubmitForm : (searchInfo: SearchType) => void
 }
 

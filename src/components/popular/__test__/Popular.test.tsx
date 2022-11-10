@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import Popular from "../Popular";
-import { ListItemMock } from "src/common/mock-data/ListItemMock";
+import { ListItemMock } from "src/common/mock-datas/ListItemMock";
 
 describe("test detail of list item", () => {
   beforeEach(() => {

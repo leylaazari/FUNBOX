@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import LocalSevice from "src/utils/api/LocalSevice";
-import { iItem } from "src/common/interfaces";
+import { IItem } from "src/common/interfaces";
 
 const useFetchData = (type: string) =>  {
-    const [filmsList, setFilmsList] = useState<iItem[]>([]);
+    const [filmsList, setFilmsList] = useState<IItem[]>([]);
 
   useEffect(() => {
     const data = async () => {

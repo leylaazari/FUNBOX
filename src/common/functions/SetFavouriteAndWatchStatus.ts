@@ -1,21 +1,21 @@
 import LocalSevice from "src/utils/api/LocalSevice";
-import { iItem } from "../interfaces";
+import { IItem } from "../interfaces";
 
- const setFavouriteAndWatchStatus = async (data: iItem[]) => {
+ const setFavouriteAndWatchStatus = async (data: IItem[]) => {
     let favourite = await LocalSevice.getFavouriteList();
     let watchList = await LocalSevice.getWatchList();
 
     const myNextList = [...data];
 
     if (favourite) {
-      const favouriteArrayFiltered = data.filter((el: iItem) => {
-        return favourite.some((f: iItem) => {
+      const favouriteArrayFiltered = data.filter((el: IItem) => {
+        return favourite.some((f: IItem) => {
           return f.id === el.id;
         });
       });
 
-      favouriteArrayFiltered.forEach((element: iItem) => {
-        const itemSearch = myNextList.find((t: iItem) => t.id === element.id);
+      favouriteArrayFiltered.forEach((element: IItem) => {
+        const itemSearch = myNextList.find((t: IItem) => t.id === element.id);
         if (itemSearch) {
           itemSearch.isFavourite = true;
         }
@@ -23,14 +23,14 @@ import { iItem } from "../interfaces";
     }
 
     if (watchList) {
-      const watchArrayFiltered = data.filter((el: iItem) => {
-        return watchList.some((f: iItem) => {
+      const watchArrayFiltered = data.filter((el: IItem) => {
+        return watchList.some((f: IItem) => {
           return f.id === el.id;
         });
       });
 
-      watchArrayFiltered.forEach((element: iItem) => {
-        const itemSearch = myNextList.find((t: iItem) => t.id === element.id);
+      watchArrayFiltered.forEach((element: IItem) => {
+        const itemSearch = myNextList.find((t: IItem) => t.id === element.id);
         if (itemSearch) {
           itemSearch.isWatchLater = true;
         }

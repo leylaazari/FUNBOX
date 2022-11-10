@@ -2,12 +2,12 @@ import { useEffect, useState, Suspense } from "react";
 import ThemoviedbAPIService from "src/utils/api/ThemoviedbAPIService";
 import Popular from "./Popular";
 import PopularHeader from "./popular-header/PopularHeader";
-import { iItem, iPopularContainerprops } from "src/common/interfaces";
+import { IItem, IPopularContainerprops } from "src/common/interfaces";
 import Spinner from "src/components/custom/Spinner";
 import "./style/Popular.scss";
 
-const PopularContainer = ({ type }: iPopularContainerprops) => {
-  const [filmsList, setFilmsList] = useState<iItem[]>([]);
+const PopularContainer = ({ type }: IPopularContainerprops) => {
+  const [filmsList, setFilmsList] = useState<IItem[]>([]);
 
   useEffect(() => {
     const data = async () => {
@@ -16,7 +16,7 @@ const PopularContainer = ({ type }: iPopularContainerprops) => {
       if (list) {
         setFilmsList(
           list?.results
-            .filter((t: iItem) => t.backdrop_path != null)
+            .filter((t: IItem) => t.backdrop_path != null)
             .slice(0, 6)
         );
       } else {
@@ -36,7 +36,7 @@ const PopularContainer = ({ type }: iPopularContainerprops) => {
             <div>
               <ul className="d-flex d-inline-flex justify-content-between align-items-center">
                 {filmsList &&
-                  filmsList.map((item: iItem) => (
+                  filmsList.map((item: IItem) => (
                     <Popular key={item?.id} item={item} />
                   ))}
               </ul>

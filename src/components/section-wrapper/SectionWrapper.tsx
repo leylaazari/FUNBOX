@@ -1,8 +1,8 @@
-import { iSectionWrapper } from "src/common/interfaces/iSectionWrapper";
+import { ISectionWrapperProps } from "src/common/interfaces";
 import CustomImage from "../custom/CustomImage";
 import "./style/style.scss";
 
-const SectionWrapper = ({ img, title, desc }: iSectionWrapper) => {
+const SectionWrapper = ({ img, title, desc }: ISectionWrapperProps) => {
   return (
     <div className="row">
       <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 main-card">

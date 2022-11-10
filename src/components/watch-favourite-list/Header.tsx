@@ -1,7 +1,7 @@
-import { iStringProps } from "src/common/interfaces";
+import { IStringProps } from "src/common/interfaces";
 import "./style/style.scss";
 
-const Header = ({ title }: iStringProps) => {
+const Header = ({ title }: IStringProps) => {
   return (
     <div className="row ">
       <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">

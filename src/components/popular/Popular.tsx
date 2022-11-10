@@ -1,7 +1,7 @@
-import { iItemPopularProps } from "src/common/interfaces";
+import { IItemPopularProps } from "src/common/interfaces";
 import CustomImageFromApi from "src/components/custom/CustomImageFromApi";
 
-const Popular = ({ item }: iItemPopularProps) => {
+const Popular = ({ item }: IItemPopularProps) => {
   return (
     <div
       data-testid="item-list"

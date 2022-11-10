@@ -3,7 +3,7 @@ import PopularContainer from "../PopularContainer";
 import { PopularHeaderType } from "src/common/enums/PopularHeaderType";
 import { rest } from "msw";
 import { setupServer } from "msw/node";
-import { ItemListWithResultMock } from "src/common/mock-data/ListItemMock";
+import { ItemListWithResultMock } from "src/common/mock-datas/ListItemMock";
 
 const server = setupServer(
   rest.get("https://api.themoviedb.org/3/discover/movie//", (req, res, ctx) => {
